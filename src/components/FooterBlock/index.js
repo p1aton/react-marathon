@@ -1,5 +1,10 @@
 import s from './style.module.css';
 
+
+/*
+!Компонент футер блок
+*/
+
 const FooterBlock = ({title, copyright}) => {
     return (
         <footer>

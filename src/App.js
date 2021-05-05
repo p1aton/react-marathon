@@ -5,6 +5,9 @@ import HeaderBlock from './components/HeaderBlock';
 import ContentBlock from './components/ContentBlock';
 import FooterBlock from './components/FooterBlock';
 
+/* 
+*Вывод всех компонентов
+*/
 
 const App = () => {
   return (
@@ -12,7 +15,9 @@ const App = () => {
       <HeaderBlock 
       title = 'Учите слова онлайн'
       descr = 'Воспользуйтесь карточками для запоминания и пополнения активныйх словарных запасов'
-      />
+      >
+      <h1>Test childe</h1>
+      </HeaderBlock>
 
       <ContentBlock 
       title = 'Учите слова онлайн'
