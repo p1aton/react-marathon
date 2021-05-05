@@ -3,7 +3,9 @@ import s from './style.module.css';
 
 import ReactLogo from '../../assets/logo.png';
 
-
+/*
+*Компонент контент блок
+*/
 const ContentBlock = ({title, hideBackground = false, descr, content}) => {
   const styleCover = hideBackground ? { backgroundImage: 'none'} : {};
 

@@ -1,8 +1,10 @@
 import React from 'react';
 import s from './style.module.css';
-
 import ReactLogo from '../../assets/logo.png';
 
+/*
+? Компонент хеадер блок
+*/
 
 const HeaderBlock = ({ title, descr }) => {
 
@@ -14,6 +16,7 @@ const HeaderBlock = ({ title, descr }) => {
           {title && <h1 class={s.header}>{title}</h1>}
           <img src={ReactLogo} />
           {descr && <p class={s.descr}>{descr}</p>}
+          
         </div>
       </div>
     </>
