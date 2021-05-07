@@ -1,0 +1,74 @@
+.cover {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #000;
+  
+}
+
+.cover:after {
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: rgb(240, 236, 236);
+}
+
+.cover .wrap {
+  position: relative;
+  z-index: 1;
+  padding: 100px 16px;
+  max-width: 1024px;
+}
+
+.cover .header {
+  font-size: 38px;
+  color: black;
+  padding: 24px 0;
+}
+
+.cover .descr {
+  color: black;
+  padding: 15px 0 30px 0;
+  font-size: 20px;
+  line-height: 1.55;
+}
+
+.cover .content {
+  color: white;
+  padding: 15px 0 30px 0;
+  font-size: 25px;
+  line-height: 1.55;
+}
+
+/*Иконки*/
+
+.wrapper {
+  position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.block { 
+  margin: 10px;
+	padding: 20px 10px;
+	width: calc(33% - 24px);
+	display: inline-block;
+  }
+

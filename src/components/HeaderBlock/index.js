@@ -6,17 +6,15 @@ import ReactLogo from '../../assets/logo.png';
 ? Компонент хеадер блок
 */
 
-const HeaderBlock = ({ title, descr }) => {
+const HeaderBlock = ({ children  }) => {
 
 
   return (
     <>
       <div class={s.cover}>
         <div class={s.wrap}>
-          {title && <h1 class={s.header}>{title}</h1>}
           <img src={ReactLogo} />
-          {descr && <p class={s.descr}>{descr}</p>}
-          
+          {children}
         </div>
       </div>
     </>
